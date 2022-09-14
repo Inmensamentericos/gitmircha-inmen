@@ -1,0 +1,21 @@
+.App {
+  background-color: rgb(13, 13, 51);
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  position: relative;
+  /* margin: 0%; */
+  /* border: none; */
+  /* height:; */
+}
+
+@media (max-width: 1080px) {
+  .App {
+    height: 100vh;
+  }
+}
+@media (max-width: 615px) {
+  .App {
+    height: 900px;
+  }
+}
